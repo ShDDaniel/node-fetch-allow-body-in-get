@@ -1,5 +1,5 @@
 {
-    "name": "node-fetch",
+    "name": "node-fetch-allow-body-in-get",
     "version": "2.6.7",
     "description": "A light-weight module that brings window.fetch to node.js",
     "main": "lib/index.js",
