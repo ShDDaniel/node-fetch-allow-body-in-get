@@ -95,10 +95,12 @@ export default class Request {
 		let method = init.method || input.method || 'GET';
 		method = method.toUpperCase();
 
+		/*
 		if ((init.body != null || isRequest(input) && input.body !== null) &&
 			(method === 'GET' || method === 'HEAD')) {
 			throw new TypeError('Request with GET/HEAD method cannot have body');
 		}
+		*/
 
 		let inputBody = init.body != null ?
 			init.body :
